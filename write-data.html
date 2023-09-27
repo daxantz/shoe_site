@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input data</title>
     <link rel="stylesheet" href="css/write-data.css">
-    <script src="js/write-data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/write-data.js" async></script>
 </head>
 <body>
     <div id="title"><h1>Input Data</h1></div>
@@ -41,7 +42,7 @@
             </div>
             <div class="form_group">
                 <label for="color">Shoe color</label>
-                <input type="text">
+                <input id="color" type="text">
             </div>
             <div class="button_container">
                 <div class="button" id="Submit"> <button>Submit</button> </div>
